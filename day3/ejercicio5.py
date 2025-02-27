@@ -31,7 +31,7 @@ radio = float(input('Dame el radio del ciruclo:'))
 print('El area del ciruclo es de:',math.pi*radio**2 )
 print('La circunferencia del ciruclo es de: ', 2*math.pi*radio)
 
-# Pendiente dada la formula y = 2x -2 8
+# Pendiente dada la formula y = 2x -2 ejercicio 8
 x1,y1= 0,-2
 x2,y2=1,0
 
@@ -47,12 +47,12 @@ print('La pendiente de es de:',(y2-y1)/(x2-x1))
 
 
 #valores de x 11
-
-x = int(input('introduce un posible valor de x: '))
-
-y = x**2 + 6*x + 9 
-
-print('el valor de y es: ',y )
+for x in range (-5,5):
+    y = x**2 + 6*x + 9 
+    print('el valor de y es: ',x**2 + 6*x + 9 )
+    if (y==0):
+        print('El valor de y es cero cuando x vale: ', x )
+    
 #12
 
 palabra1 = 'python'

@@ -21,8 +21,8 @@ print(type(is_true))
 print(type(cuatri))
 print(type(universidad))
 print(type(grupo))
-print(len(nombre))
-print(len(apellido))
+print('La longitud de mi nombre es:',len(nombre))
+print('La longitud de mi apellido es: ',len(apellido))
 num_uno= 5
 num_dos= 4
 total = num_uno + num_dos
