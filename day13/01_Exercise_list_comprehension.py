@@ -23,10 +23,10 @@ countries = [[('Finland', 'Helsinki')], [('Sweden', 'Stockholm')], [('Norway', '
 
 [['FINLAND','FIN', 'HELSINKI'], ['SWEDEN', 'SWE', 'STOCKHOLM'], ['NORWAY', 'NOR', 'OSLO']]
 
-filtered_countries = [item for sublist in countries for item in sublist[0]]
+filtered_countries = [[country.upper(),country[:3].upper(), capital.upper()] for [(country,capital)]in countries]
 
-mayus_countries = [i.upper() for i in filtered_countries]
-print(mayus_countries)
+
+print(filtered_countries)
 
 #Exercise 5 
 
