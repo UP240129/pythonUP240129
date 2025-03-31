@@ -14,7 +14,7 @@ print(filtered_list)
 
 #Exercise 3 
 
-numberss = [(i,1, i**2,i**3,i**4,i**5) for i in range(0,11)]
+numberss = [(i,1,i, i**2,i**3,i**4,i**5) for i in range(0,11)]
 print(numberss) 
 
 #Exercise 4 
